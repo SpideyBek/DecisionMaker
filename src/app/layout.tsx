@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     "Stop overthinking! DecisionAI helps you make confident decisions by asking the right questions and providing personalized recommendations.",
   keywords: ["decision maker", "AI decision tool", "choice helper", "decision assistant"],
   authors: [{ name: "Bibek Tiwari", url: "https://bibektiwari.com" }],
-  metadataBase: new URL("https://www.decisionai.click"),
+  metadataBase: new URL("https://decisionai.click"),
   openGraph: {
     title: "DecisionAI - AI-Powered Decision Making Tool",
     description: "Stop overthinking! Get AI-powered recommendations for your decisions.",
-    url: "https://www.decisionai.click",
+    url: "https://decisionai.click",
     siteName: "DecisionAI",
     type: "website",
   },
