@@ -8,9 +8,23 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "DecisionAI - Make Better Decisions",
+  title: "DecisionAI - AI-Powered Decision Making Tool",
   description:
-    "AI-powered decision making assistant that helps you weigh options and make confident choices",
+    "Stop overthinking! DecisionAI helps you make confident decisions by asking the right questions and providing personalized recommendations.",
+  keywords: ["decision maker", "AI decision tool", "choice helper", "decision assistant"],
+  authors: [{ name: "Bibek Tiwari", url: "https://bibektiwari.com" }],
+  metadataBase: new URL("https://www.decisionai.click"),
+  openGraph: {
+    title: "DecisionAI - AI-Powered Decision Making Tool",
+    description: "Stop overthinking! Get AI-powered recommendations for your decisions.",
+    url: "https://www.decisionai.click",
+    siteName: "DecisionAI",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
