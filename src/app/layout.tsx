@@ -8,7 +8,10 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "DecisionAI - AI-Powered Decision Making Tool",
+  title: "DecisionAI - Your AI-Powered Decision Helper",
+  icons: {
+    icon: "/favicon.svg",
+  },
   description:
     "Stop overthinking! DecisionAI helps you make confident decisions by asking the right questions and providing personalized recommendations.",
   keywords: ["decision maker", "AI decision tool", "choice helper", "decision assistant"],
